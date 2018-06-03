@@ -1,8 +1,8 @@
 ---
 layout: default.hbs
-subject: Branded transaction email example
+subject: Payment Upcoming
 ---
-<span class="preheader">This is preheader text. Some clients will show this text as a preview.</span>
+<span class="preheader">Hyxus Flight payment upcoming</span>
 <div class="header">
   <table>
     <tr>
@@ -18,9 +18,7 @@ subject: Branded transaction email example
       <table>
         <tr>
           <td>
-            <p>Example of an email with image asset.</p>
-            <p>You should upload your email images to a CDN, or for smaller file sizes you can also inline them.</p>
-            <p>Should come in handy for branded transactional emails or promotional type emails.</p>
+            <p>This is just a reminder that your payment is coming up!</p>
             {{> button type='primary' url='https://flight.hyxus.com' title='Login' }}
           </td>
         </tr>
@@ -28,7 +26,7 @@ subject: Branded transaction email example
     </td>
   </tr>
 </table>
-<div class="footer">
+{{!-- <div class="footer">
   <table>
     <tr>
       <td class="align-center">
@@ -36,4 +34,4 @@ subject: Branded transaction email example
       </td>
     </tr>
   </table>
-</div>
+</div> --}}

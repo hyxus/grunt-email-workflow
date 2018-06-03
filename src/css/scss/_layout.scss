@@ -2,12 +2,14 @@
     BODY & CONTAINER
 ------------------------------------- */
 
-body{
-  background-color: $grey;
+html{
+  @include linear-gradient(143deg, #041533, #0e324e 34%, #092349 63%, #041431);
 }
 
-.body {
-  background-color: $grey;
+body {
+  @include linear-gradient(143deg, #041533, #0e324e 34%, #092349 63%, #041431);
+
+  height: 100%;
   width: 100%;
 }
 
@@ -35,10 +37,11 @@ body{
 ------------------------------------- */
 
 .main {
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
   border: 1px solid darken($grey, 5);
   border-radius: $br;
   width: 100%;
+  color: white;
 }
 
 .wrapper {

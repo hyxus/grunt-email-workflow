@@ -1,0 +1,40 @@
+---
+layout: default.hbs
+subject: Payment Failed
+---
+<span class="preheader">One of your payments has failed.</span>
+<div class="header">
+  <table>
+    <tr>
+      <td class="align-center">
+        <a href="https://flight.hyxus.com">
+          <img src="http://flight.hyxus.com/assets/images/HYXUS_LOGO_SQUARE_WHITE.png" height="50" alt="Mailgun">
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<table class="main">
+  <tr>
+    <td class="wrapper">
+      <table>
+        <tr>
+          <td>
+            <p>We've failed to recieve a payment for your account. Your account will be disabled unless you take action immediately.
+              </p>
+            {{> button type='primary' url='https://flight.hyxus.com' title='Login' }}
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+{{!-- <div class="footer">
+  <table>
+    <tr>
+      <td class="align-center">
+        <p>{{> follow_lee }}</p>
+      </td>
+    </tr>
+  </table>
+</div> --}}
